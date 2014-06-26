@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/loganreltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_eng.so:system/vendor/firmware/libpn547_fw_eng.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
     vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
