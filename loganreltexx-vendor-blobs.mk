@@ -30,20 +30,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/loganreltexx/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/loganreltexx/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/samsung/loganreltexx/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/samsung/loganreltexx/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/loganreltexx/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/loganreltexx/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -67,10 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/loganreltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/loganreltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/loganreltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libdl.so:system/lib/libdl.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -80,13 +77,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/samsung/loganreltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/loganreltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/loganreltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/loganreltexx/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+    vendor/samsung/loganreltexx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/samsung/loganreltexx/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/samsung/loganreltexx/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/loganreltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/loganreltexx/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/samsung/loganreltexx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/samsung/loganreltexx/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
@@ -129,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
+    vendor/samsung/loganreltexx/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/loganreltexx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/loganreltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -137,9 +136,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/loganreltexx/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/loganreltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/loganreltexx/proprietary/bin/playlpm:system/bin/playlpm \
+    vendor/samsung/loganreltexx/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
     vendor/samsung/loganreltexx/proprietary/bin/lpmkey:system/bin/lpmkey \
-    vendor/samsung/loganreltexx/proprietary/lib/libQmageAndroidDecoderPaddingSo.so:system/lib/libQmageAndroidDecoderPaddingSo.so \
+    vendor/samsung/loganreltexx/proprietary/bin/playlpm:system/bin/playlpm \
+    vendor/samsung/loganreltexx/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/loganreltexx/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/loganreltexx/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
     vendor/samsung/loganreltexx/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
@@ -163,4 +166,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
     vendor/samsung/loganreltexx/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
     vendor/samsung/loganreltexx/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
-    vendor/samsung/loganreltexx/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
+    vendor/samsung/loganreltexx/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
+    vendor/samsung/loganreltexx/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libarac.so:system/lib/libarac.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libmedia_native.so:system/lib/libmedia_native.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libnfc_log.so:system/lib/libnfc_log.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
+    vendor/samsung/loganreltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
